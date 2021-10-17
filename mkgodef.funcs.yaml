@@ -1,0 +1,22 @@
+package: "parallels"
+
+mode:
+  - "func"
+
+header:
+  - "include/Parallels.h"
+
+ignoreMacro:
+  - "__GNUC__"
+  - "__APPLE__"
+  - "PRL_ASYNC_METHOD_DECL"
+  - "PRL_ASYNC_SRV_METHOD_DECL"
+  - "PRL_CALL"
+  - "PRL_METHOD_DECL"
+  - "PRL_METHOD_PTR"
+  - "PRL_SRV_METHOD_DECL"
+  - "PRL_STRUCT"
+  - "PRL_UNUSED"
+
+# godefsMap:
+#   _Ctype_struct__PRL_HANDLE: "C.struct__PRL_HANDLE"
